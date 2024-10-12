@@ -7,9 +7,9 @@ import color from './../../../public/images/image-confetti.jpg'
 export default function LatestArticles(){
     return (
         <>
-        <div className='md:px-52 py-20 font-PublicSans bg-Very-Light-Gray'>
-          <p className='text-4xl text-Dark-Blue'>Latest Articles</p>
-          <div className='mt-10 grid md:grid-cols-4 md:gap-x-6'>
+        <div className='md:px-52 py-20 font-PublicSans bg-Very-Light-Gray px-8'>
+          <p className='text-4xl text-Dark-Blue text-center md:text-start font-light'>Latest Articles</p>
+          <div className='mt-10 grid md:grid-cols-4 md:gap-x-6 gap-y-6 md:gap-y-0'>
             <div className='bg-white rounded-md flex flex-col'>
               <div className='basis-1/2'>
                   <Image src={money} alt='money' className='rounded-t-md h-full'/>
