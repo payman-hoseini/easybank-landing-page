@@ -7,9 +7,9 @@ import color from './../../../public/images/image-confetti.jpg'
 export default function LatestArticles(){
     return (
         <>
-        <div className='md:px-52 py-20 font-PublicSans bg-Very-Light-Gray px-8'>
-          <p className='text-4xl text-Dark-Blue text-center md:text-start font-light'>Latest Articles</p>
-          <div className='mt-10 grid md:grid-cols-4 md:gap-x-6 gap-y-6 md:gap-y-0'>
+        <div className='lg:px-52 py-20 font-PublicSans bg-Very-Light-Gray px-8'>
+          <p className='text-4xl text-Dark-Blue text-center lg:text-start font-light'>Latest Articles</p>
+          <div className='mt-10 grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 gap-y-6 lg:gap-y-0'>
             <div className='bg-white rounded-md flex flex-col'>
               <div className='basis-1/2'>
                   <Image src={money} alt='money' className='rounded-t-md h-full'/>
@@ -17,7 +17,7 @@ export default function LatestArticles(){
               <div className='mt-6 mb-6 mx-6 basis-1/2'>
                 <p className='text-xs text-Grayish-Blue'>By Claire Robinson</p>
                 <p className='my-3 text-lg text-Dark-Blue leading-5 hover:text-Lime-Green hover:cursor-pointer'>Receive money in any currency with no fees</p>
-                <p className='text-Grayish-Blue text-sm'>The world is getting smaller and we’re becoming more mobile. So why should you be 
+                <p className='text-Grayish-Blue text-sm text-balance'>The world is getting smaller and we’re becoming more mobile. So why should you be 
                 forced to only receive money in a single …</p>
               </div>
             </div>
