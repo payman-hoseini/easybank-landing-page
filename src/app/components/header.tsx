@@ -5,7 +5,12 @@ import { useState } from "react"
 export default function Header(){
     const [showMenu , setShowMenu] = useState(false)
     function showMenuHandler(){
-        showMenu ? setShowMenu(false) : setShowMenu(true)
+        if(showMenu){
+            setShowMenu(false)
+        }
+        else {
+            setShowMenu(true)
+        }
     }
     return (
         <>
